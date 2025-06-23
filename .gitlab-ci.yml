@@ -87,7 +87,7 @@ dependency_vulnérabilités_test_jobs:
     - >
       curl -X POST "${DEPENDENCY_TRACK_URL}/api/v1/bom"
       -H "Content-Type: multipart/form-data"
-      -H "X-Api-Key: odt_ByX62KUxEyqFfc8XpyhD6WXAf3dSZnGM"
+      -H "X-Api-Key: "
       -F "autoCreate=true"
       -F "projectName=services-backend"
       -F "projectVersion=1.0"
